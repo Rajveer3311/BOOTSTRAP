@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test navbar</title>
+
+	<style type="text/css">
+			*{
+	       margin:0px;
+	       padding: 0px;
+	       text-transform: none;
+	       box-sizing: border-box;
+              }
+          .header{
+          	background: linear-gradient(-30deg,#03a9f4 0%,#3a78b7 50%,#262626 50%,#607d8b 100%);
+          	min-height: 100vh;
+
+            }    
+
+   		.logo{
+			border-radius: 50%;
+			margin-left: 20px;
+			margin-top: 15px;
+		}
+	/*/*/*	/*nav{*/
+			background-color:/* #1ba;*/#3a78b7;
+            
+		
+			/*max-height: 90px;*/
+			max-width: 100%;
+		/*}*/*/*/
+		.list {
+		      
+               /*margin-bottom: 10%;*/
+            
+		}
+		.logo{
+			margin-top: 10px;
+		}
+		li{
+            display: inline-block;
+            margin-right: 150px;
+			/*position: relative;*/
+			/*left: : 100px;*/
+		   padding: 10px;
+		   float: right;
+
+		 
+		   /*margin-top: -50px;*/
+			
+
+		}
+		 li a{
+
+            position: absolute;
+            text-decoration: none; 
+			padding: 12px;
+			margin-top: -70px;
+			margin-right: 45px;
+			color: #fff;
+
+		}
+		.mobile{
+		   
+		}
+	 .mob1{
+	 	position: absolute;
+        width: 600px;
+        /*left: 50%;*/
+        margin-left: -400px;
+        
+        margin-top: -13    0px;
+
+	 }
+	.thumb {
+		display: flex;
+		/*display: inline-block;*/
+		position: absolute;
+		left: 60%;
+		transform: translateX(-50%);
+	}
+  .thumb li{
+  	display: inline-block;
+  	list-style: none;
+  	transition: 0.5s;
+    cursor: pointer;file:///C:/Users/DeLL/Desktop/bootstrap2/image/mobile1.png
+  	bottom: 20px;
+  	margin:360px 10px ;
+
+
+  }
+  .thumb li :hover{
+  	transform: translateY(-20px);
+  }
+   .thumb li img{
+   	 max-width: 140px;
+   
+  
+
+   }
+	 li a:hover{
+	 	padding: 10px;
+	 	background-color:/* #1ab;*/#03a9f4;
+	 	color: #fff;
+	 }
+	 .text{
+	 	color: #fff;
+	 	/*margin-top: -500px;
+	 	;*/margin-left: 30px;
+	 	  margin-top: 30px;
+	 	  font-size: 30px;
+	 	  text-transform: uppercase;
+
+	 }
+	 h2{
+	 	color: #fff;
+	    /**/margin-left: 30px;
+	  ;
+	 }
+
+	</style>
+</head>
+<body>
+ <div class="header">
+    <nav>
+ 	<div class=""><img src="image/mobile2.jpg"class="logo"height="5%"width="5%"></div>
+ 	<ul class="list">
+ 		<li><a href="#">HOME</a></li>
+ 		<li><a href="#">SERVICES</a></li>
+ 		<li><a href="#">CONTACT</a></li>
+ 		<li><a href="#">ABOUT</a></li>
+ 	</ul>
+    </nav>
+   <h1 class="text">WE have an new collection of latest mobile phone <br/>with new features.</h1>
+   <h2>we are happy to buy a latest mobile phone with a new version.</h2>
+   <li><img src="image/mobile1.png"class="mob1"></li>
+ 	<div class="thumb">
+ 	
+ 		
+ 		<li><img src="image/mobile1.png"class="mob2"onclick="imgslider('image/mobile1.png')"></li>
+        <li><img src="image/iphone6.jfif"class="mob3"onclick="imgslider('image/iphone6.jfif')"></li>
+   </div>
+        
+
+ 
+ </div>
+ <script type="text/javascript">
+ 	function imgslider(anything){
+       document.querySelector('.mob1').src=anything;
+ 	}
+ </script>
+</body>
+</html>

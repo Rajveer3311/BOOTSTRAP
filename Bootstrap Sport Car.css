@@ -1,0 +1,36 @@
+
+*{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+
+}
+.navb{ 
+           
+           font-size:40px;
+           
+}
+
+
+.bg-image{
+	       
+           max-width: 100%;
+           background-image:url(image/cycle.jpg);
+           height:100vh;
+           background-position:center;
+           background-repeat:no-repeat;
+           background-size:cover;
+           margin-bottom: 20px;
+           box-sizing: border-box;
+          
+	       overflow-x: hidden;
+	
+
+
+}
+.bg-text{
+	font-size: 120px;
+	
+	margin-top: 530px;
+	
+}

@@ -1,0 +1,18 @@
+.fluid{height: 60px;
+	background-color: red;
+}
+.notfluid{height: 60px;
+	background-color:blue;
+}
+.cbox{
+	border: 2px solid red;
+	height: 500px;
+	background-color:transparent;
+}
+.x{border: 2px solid blue;
+   /*height: 50px;*/
+	background-color:green;
+}
+.y{border: 2px solid black;
+     
+	background-color:crimson;}

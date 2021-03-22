@@ -1,0 +1,70 @@
+
+
+
+.bg-image{
+	max-width: 100%;
+	width:100%;
+	min-height:740px;
+
+	background-image: url(image/Farmer.jpeg);
+	background-size: cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+	position: fixed;
+
+}
+
+
+
+.search_bg {
+background-color: transparent;
+/*color: #FFF;*/
+
+}
+.search_bg:focus {
+background-color: transparent;
+/*color: #FFF;*/
+
+}
+
+.website-margin{
+
+	padding-top: 50px;
+	color: white;
+}
+.bg-jumbo{
+	background-image: url(image/b.jpg);
+	position: relative;
+	top: 700px;
+}
+
+.form-border{
+	background-color:/*#ffa34d;*/#ccefff;
+/* #ff8000;*/
+	border-bottom: 2px solid black;
+	border-left : 2px solid black;
+	border-right: 2px solid black;
+    border-top: 2px solid black;
+	width: 100%;
+	padding-left: 20px;
+	/*background-color:blue;*/
+}
+.form-title{
+    background-color: #80d7ff;	/*#ff8000; */
+	height:30px;
+	/*width: 100%;*/
+	color:#331a00;
+	font-size: 20px;
+
+	padding-left: 600px;
+}/*https://truckguru.co.in/index*/
+.img-center{
+	
+		width:50%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+}
+.footer{
+	background-color:#aaa;
+}

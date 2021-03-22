@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible"content="ie-edge">
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>bootstrap</title>
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="card card-body mt-5">
+		
+           <label>Attendance<input type=" number"class="w-25" name=""id="attendance"></label><br>
+           <label>Rate<input type="text"class="w-25"value="300" name=""id="rate"style="margin-left: 50px;"></label><br>
+           <button class="w-25 btn btn-sm btn-primary" onclick="calculate()">calculate</button><br>                      <button class="w-25 btn btn-sm btn-primary" onclick="reload()">reload</button><br><br>
+       </div> 
+            Total Amount <div class="w-25"  id="test"></div><br><br>
+            Fine <div class="w-25" id="test1"></div>      
+   
+   <script type="text/javascript">
+        	function calculate()
+        	{
+            var a=document.getElementById("attendance").value;
+            if (a==0)
+            {
+           	a=30;
+            }
+            var b=document.getElementById("rate").value;
+            var c=30-a;
+   		    var d=50*c;
+   			  var X=b*a;
+   			  document.getElementById("test").innerHTML=X;
+   		   	document.getElementById("test1").innerHTML=d;	
+   		    }
+   	        function reload()
+   	        {
+   		    location.reload(); 
+         	}
+   </script>
+   <script src="js/jquery.js"></script>
+   <script src="js/popper.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
